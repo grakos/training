@@ -28,9 +28,13 @@
      node {
        sh 'sleep 10'
      }
-         node {
-   echo 'Hello World'
-}
+        
+   }
+   stage('Gabor') {
+     node {
+       sh 'echo "hello world"'
+     }
+        
    }
 
 
