@@ -28,6 +28,9 @@
      node {
        sh 'sleep 10'
      }
+         node {
+   echo 'Hello World'
+}
    }
 
 
